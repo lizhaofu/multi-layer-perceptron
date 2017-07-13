@@ -21,6 +21,7 @@ public class Mlp {
 					);
 
 		_delta_w = new ArrayList<float[][]>();
+		int a = 0;
 		for (int i = 0; i < nn_neurons.length; ++i)
 			_delta_w.add(new float
 						[_layers.get(i).size()]
